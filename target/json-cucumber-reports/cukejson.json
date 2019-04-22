@@ -1,0 +1,309 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2178816821,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Shakedown for all clubs",
+        "description": "",
+        "id": "shakedown;shakedown-for-all-clubs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 103460243,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32606503244,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the landing page for \"california\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "california",
+                  "offset": 36
+                }
+              ],
+              "location": "LandingPageSteps.i_navigate_to_the_landing_page_for_the_club_specified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31385551729,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the search button",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 103904,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The search results should be displayed on a new page",
+            "match": {
+              "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2181619664,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Shakedown for all clubs",
+        "description": "",
+        "id": "shakedown;shakedown-for-all-clubs;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 102462446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32679966995,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the landing page for \"new mexico\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "new mexico",
+                  "offset": 36
+                }
+              ],
+              "location": "LandingPageSteps.i_navigate_to_the_landing_page_for_the_club_specified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31451270539,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the search button",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 139349,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The search results should be displayed on a new page",
+            "match": {
+              "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2181908427,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Shakedown for all clubs",
+        "description": "",
+        "id": "shakedown;shakedown-for-all-clubs;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 94581929,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32293504285,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the landing page for \"pennsylvania\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pennsylvania",
+                  "offset": 36
+                }
+              ],
+              "location": "LandingPageSteps.i_navigate_to_the_landing_page_for_the_club_specified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30937263294,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the search button",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1244389,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The search results should be displayed on a new page",
+            "match": {
+              "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2153987636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Shakedown for all clubs",
+        "description": "",
+        "id": "shakedown;shakedown-for-all-clubs;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 104605810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32103782354,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the landing page for \"texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "texas",
+                  "offset": 36
+                }
+              ],
+              "location": "LandingPageSteps.i_navigate_to_the_landing_page_for_the_club_specified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32019391996,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the search button",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95496,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The search results should be displayed on a new page",
+            "match": {
+              "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Shakedown",
+    "description": "",
+    "id": "shakedown",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/shakedown.feature",
+    "tags": []
+  }
+]

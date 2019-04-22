@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testng-results failed="0" passed="4" skipped="0" total="4">
+<suite duration-ms="264578" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="264578" name="cucumber.runtime.formatter.TestNGFormatter">
+<class name="Shakedown">
+<test-method duration-ms="66274" finished-at="2019-04-22T08:23:33Z" name="Shakedown for all clubs" started-at="2019-04-22T08:23:33Z" status="PASS"/>
+<test-method duration-ms="66415" finished-at="2019-04-22T08:23:33Z" name="Shakedown for all clubs_2" started-at="2019-04-22T08:23:33Z" status="PASS"/>
+<test-method duration-ms="65508" finished-at="2019-04-22T08:23:33Z" name="Shakedown for all clubs_3" started-at="2019-04-22T08:23:33Z" status="PASS"/>
+<test-method duration-ms="66381" finished-at="2019-04-22T08:23:33Z" name="Shakedown for all clubs_4" started-at="2019-04-22T08:23:33Z" status="PASS"/>
+</class>
+</test>
+</suite>
+</testng-results>

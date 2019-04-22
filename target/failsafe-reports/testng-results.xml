@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="66779" started-at="2019-04-22T15:22:27Z" finished-at="2019-04-22T15:23:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="66779" started-at="2019-04-22T15:22:27Z" finished-at="2019-04-22T15:23:33Z">
+      <class name="runner.SingleRunnerForAllFeatures">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="setUpClass" is-config="true" duration-ms="107" started-at="2019-04-22T15:22:27Z" finished-at="2019-04-22T15:22:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="runScenario" duration-ms="65676" started-at="2019-04-22T15:22:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-04-22T15:23:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shakedown for all clubs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shakedown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="runScenario" duration-ms="66583" started-at="2019-04-22T15:22:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-04-22T15:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shakedown for all clubs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shakedown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="runScenario" duration-ms="66442" started-at="2019-04-22T15:22:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-04-22T15:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shakedown for all clubs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shakedown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="runScenario" duration-ms="66549" started-at="2019-04-22T15:22:27Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-04-22T15:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shakedown for all clubs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shakedown"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.SingleRunnerForAllFeatures@36f6e879]" name="tearDownClass" is-config="true" duration-ms="57" started-at="2019-04-22T15:23:33Z" finished-at="2019-04-22T15:23:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.SingleRunnerForAllFeatures -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
