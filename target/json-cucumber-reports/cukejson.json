@@ -1,12 +1,12 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 2178816821,
+              "duration": 2035604027,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 11,
         "name": "Shakedown for all clubs",
         "description": "",
         "id": "shakedown;shakedown-for-all-clubs;;2",
         "after": [
           {
             "result": {
-              "duration": 103460243,
+              "duration": 87852587,
               "status": "passed"
             },
             "match": {
@@ -34,10 +34,10 @@
         "steps": [
           {
             "result": {
-              "duration": 32606503244,
+              "duration": 4404734950,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to the landing page for \"california\"",
             "match": {
               "arguments": [
@@ -52,10 +52,10 @@
           },
           {
             "result": {
-              "duration": 31385551729,
+              "duration": 2112200411,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I click on the search button",
             "match": {
               "location": "LandingPageSteps.i_click_on_the_search_button()"
@@ -64,15 +64,20 @@
           },
           {
             "result": {
-              "duration": 103904,
+              "duration": 105251,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "The search results should be displayed on a new page",
             "match": {
               "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShakeDown"
           }
         ]
       },
@@ -80,7 +85,7 @@
         "before": [
           {
             "result": {
-              "duration": 2181619664,
+              "duration": 2074428437,
               "status": "passed"
             },
             "match": {
@@ -88,14 +93,14 @@
             }
           }
         ],
-        "line": 11,
+        "line": 12,
         "name": "Shakedown for all clubs",
         "description": "",
         "id": "shakedown;shakedown-for-all-clubs;;3",
         "after": [
           {
             "result": {
-              "duration": 102462446,
+              "duration": 92231675,
               "status": "passed"
             },
             "match": {
@@ -108,10 +113,10 @@
         "steps": [
           {
             "result": {
-              "duration": 32679966995,
+              "duration": 4025521372,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to the landing page for \"new mexico\"",
             "match": {
               "arguments": [
@@ -126,10 +131,10 @@
           },
           {
             "result": {
-              "duration": 31451270539,
+              "duration": 1491867917,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I click on the search button",
             "match": {
               "location": "LandingPageSteps.i_click_on_the_search_button()"
@@ -138,15 +143,20 @@
           },
           {
             "result": {
-              "duration": 139349,
+              "duration": 107843,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "The search results should be displayed on a new page",
             "match": {
               "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShakeDown"
           }
         ]
       },
@@ -154,7 +164,7 @@
         "before": [
           {
             "result": {
-              "duration": 2181908427,
+              "duration": 2062062026,
               "status": "passed"
             },
             "match": {
@@ -162,14 +172,14 @@
             }
           }
         ],
-        "line": 12,
+        "line": 13,
         "name": "Shakedown for all clubs",
         "description": "",
         "id": "shakedown;shakedown-for-all-clubs;;4",
         "after": [
           {
             "result": {
-              "duration": 94581929,
+              "duration": 96458053,
               "status": "passed"
             },
             "match": {
@@ -182,10 +192,10 @@
         "steps": [
           {
             "result": {
-              "duration": 32293504285,
+              "duration": 3414731534,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to the landing page for \"pennsylvania\"",
             "match": {
               "arguments": [
@@ -200,10 +210,10 @@
           },
           {
             "result": {
-              "duration": 30937263294,
+              "duration": 1522079467,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I click on the search button",
             "match": {
               "location": "LandingPageSteps.i_click_on_the_search_button()"
@@ -212,15 +222,20 @@
           },
           {
             "result": {
-              "duration": 1244389,
+              "duration": 2113986,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "The search results should be displayed on a new page",
             "match": {
               "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShakeDown"
           }
         ]
       },
@@ -228,7 +243,7 @@
         "before": [
           {
             "result": {
-              "duration": 2153987636,
+              "duration": 2095203351,
               "status": "passed"
             },
             "match": {
@@ -236,14 +251,14 @@
             }
           }
         ],
-        "line": 13,
+        "line": 14,
         "name": "Shakedown for all clubs",
         "description": "",
         "id": "shakedown;shakedown-for-all-clubs;;5",
         "after": [
           {
             "result": {
-              "duration": 104605810,
+              "duration": 92797630,
               "status": "passed"
             },
             "match": {
@@ -256,10 +271,10 @@
         "steps": [
           {
             "result": {
-              "duration": 32103782354,
+              "duration": 3863102265,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I navigate to the landing page for \"texas\"",
             "match": {
               "arguments": [
@@ -274,10 +289,10 @@
           },
           {
             "result": {
-              "duration": 32019391996,
+              "duration": 1348632451,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "I click on the search button",
             "match": {
               "location": "LandingPageSteps.i_click_on_the_search_button()"
@@ -286,15 +301,20 @@
           },
           {
             "result": {
-              "duration": 95496,
+              "duration": 137055,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "The search results should be displayed on a new page",
             "match": {
               "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ShakeDown"
           }
         ]
       }
@@ -304,6 +324,15 @@
     "id": "shakedown",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/shakedown.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@ShakeDown",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

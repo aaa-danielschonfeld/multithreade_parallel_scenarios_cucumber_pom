@@ -1,3 +1,4 @@
+@ShakeDown
 Feature: Shakedown
 
   Scenario Outline: Shakedown for all clubs

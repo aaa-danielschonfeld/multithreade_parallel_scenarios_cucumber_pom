@@ -16,5 +16,4 @@ public class SingleRunnerForAllFeatures extends AbstractTestNGCucumberTests {
 		return super.scenarios();
 	}
 	
-	// todo: add tagging
 }
