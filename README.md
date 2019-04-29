@@ -9,3 +9,8 @@
 
 
 #view results: target/generated-report/index.html
+
+
+
+
+# This framework runs Cucumber Scenarios in parallel on different threads using TestNG and Maven. The Maven Failsafe plugin is used for this purpose. In TestNG the scenarios are run in parallel, which means all the steps in a scenario will be executed by the same thread. But different scenarios in a single feature file are executed by different threads. In the case of a scenario outline, the rows in an examples table are executed in parallel, each on its own thread.

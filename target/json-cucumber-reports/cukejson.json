@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2035604027,
+              "duration": 2267212045,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 87852587,
+              "duration": 96342968,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4404734950,
+              "duration": 7293249798,
               "status": "passed"
             },
             "line": 5,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 2112200411,
+              "duration": 2863762497,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 105251,
+              "duration": 107695,
               "status": "passed"
             },
             "line": 7,
@@ -85,7 +85,7 @@
         "before": [
           {
             "result": {
-              "duration": 2074428437,
+              "duration": 2291469523,
               "status": "passed"
             },
             "match": {
@@ -100,7 +100,7 @@
         "after": [
           {
             "result": {
-              "duration": 92231675,
+              "duration": 183778888,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4025521372,
+              "duration": 6282059380,
               "status": "passed"
             },
             "line": 5,
@@ -131,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 1491867917,
+              "duration": 2160618085,
               "status": "passed"
             },
             "line": 6,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 107843,
+              "duration": 1968193,
               "status": "passed"
             },
             "line": 7,
@@ -164,7 +164,7 @@
         "before": [
           {
             "result": {
-              "duration": 2062062026,
+              "duration": 2282936509,
               "status": "passed"
             },
             "match": {
@@ -179,7 +179,7 @@
         "after": [
           {
             "result": {
-              "duration": 96458053,
+              "duration": 98772130,
               "status": "passed"
             },
             "match": {
@@ -192,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3414731534,
+              "duration": 7239729914,
               "status": "passed"
             },
             "line": 5,
@@ -210,7 +210,7 @@
           },
           {
             "result": {
-              "duration": 1522079467,
+              "duration": 2661558322,
               "status": "passed"
             },
             "line": 6,
@@ -222,7 +222,7 @@
           },
           {
             "result": {
-              "duration": 2113986,
+              "duration": 185277,
               "status": "passed"
             },
             "line": 7,
@@ -243,7 +243,7 @@
         "before": [
           {
             "result": {
-              "duration": 2095203351,
+              "duration": 2270693402,
               "status": "passed"
             },
             "match": {
@@ -258,7 +258,7 @@
         "after": [
           {
             "result": {
-              "duration": 92797630,
+              "duration": 97936133,
               "status": "passed"
             },
             "match": {
@@ -271,7 +271,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3863102265,
+              "duration": 7251961449,
               "status": "passed"
             },
             "line": 5,
@@ -289,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 1348632451,
+              "duration": 5418591999,
               "status": "passed"
             },
             "line": 6,
@@ -301,7 +301,7 @@
           },
           {
             "result": {
-              "duration": 137055,
+              "duration": 91101,
               "status": "passed"
             },
             "line": 7,
@@ -327,6 +327,105 @@
     "tags": [
       {
         "name": "@ShakeDown",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2282936526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Regression for Texas",
+        "description": "",
+        "id": "texasregression;regression-for-texas",
+        "after": [
+          {
+            "result": {
+              "duration": 95479506,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseSteps.endTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7842683297,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the landing page for \"texas\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "texas",
+                  "offset": 36
+                }
+              ],
+              "location": "LandingPageSteps.i_navigate_to_the_landing_page_for_the_club_specified(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2939692569,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the search button",
+            "match": {
+              "location": "LandingPageSteps.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92179,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The search results should be displayed on a new page",
+            "match": {
+              "location": "ResultsPageSteps.the_search_results_should_be_displayed_on_a_new_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TexasRegression"
+          }
+        ]
+      }
+    ],
+    "name": "TexasRegression",
+    "description": "",
+    "id": "texasregression",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/texasRegression.feature",
+    "tags": [
+      {
+        "name": "@TexasRegression",
         "type": "Tag",
         "location": {
           "line": 1,
