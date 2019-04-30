@@ -1,6 +1,9 @@
 package steps;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
+
+import com.relevantcodes.extentreports.LogStatus;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
@@ -15,6 +18,7 @@ public class LandingPageSteps {
 	
 	@Given("^I navigate to the landing page for \"([^\"]*)\"$")
 	public void i_navigate_to_the_landing_page_for_the_club_specified(String club) throws Throwable {
+		world.getExtTest().log(LogStatus.INFO, "Given: I navigate to the landing page for " + club);
 		String url;
 		switch (club) {
 		case "texas":
@@ -31,14 +35,24 @@ public class LandingPageSteps {
 			break;
 		default:
 			throw new IllegalArgumentException("Invalid argument: " + club);
+		}		
+		world.getExtTest().assignCategory(club);
+  
+		try {
+			world.landingPage = new LandingPage(world.getDriver());
+			world.landingPage.navigate(url);	
+		} catch(Exception e) {
+			world.testFailed(e);
 		}
-		
-		world.landingPage = new LandingPage(world.getDriver());
-		world.landingPage.navigate(url);	 
 	}
 	
 	@When("I click on the search button")
 	public void i_click_on_the_search_button() {
-		world.resultsPage = world.landingPage.clickSearchButton();
+		world.getExtTest().log(LogStatus.INFO, "When: I click on the search button");
+		try {
+			world.resultsPage = world.landingPage.clickSearchButton();	
+		} catch(Exception e) {
+			world.testFailed(e);
+		}
 	}
 }

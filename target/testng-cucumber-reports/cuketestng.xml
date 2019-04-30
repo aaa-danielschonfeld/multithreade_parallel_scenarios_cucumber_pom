@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testng-results failed="0" passed="5" skipped="0" total="5">
-<suite duration-ms="63921" name="cucumber.runtime.formatter.TestNGFormatter">
-<test duration-ms="63921" name="cucumber.runtime.formatter.TestNGFormatter">
+<suite duration-ms="42394" name="cucumber.runtime.formatter.TestNGFormatter">
+<test duration-ms="42394" name="cucumber.runtime.formatter.TestNGFormatter">
 <class name="Shakedown">
-<test-method duration-ms="12520" finished-at="2019-04-29T11:33:22Z" name="Shakedown for all clubs" started-at="2019-04-29T11:33:22Z" status="PASS"/>
-<test-method duration-ms="10919" finished-at="2019-04-29T11:33:22Z" name="Shakedown for all clubs_2" started-at="2019-04-29T11:33:22Z" status="PASS"/>
-<test-method duration-ms="12283" finished-at="2019-04-29T11:33:22Z" name="Shakedown for all clubs_3" started-at="2019-04-29T11:33:22Z" status="PASS"/>
-<test-method duration-ms="15039" finished-at="2019-04-29T11:33:22Z" name="Shakedown for all clubs_4" started-at="2019-04-29T11:33:22Z" status="PASS"/>
+<test-method duration-ms="8219" finished-at="2019-04-30T13:09:19Z" name="Shakedown for all clubs" started-at="2019-04-30T13:09:19Z" status="PASS"/>
+<test-method duration-ms="8603" finished-at="2019-04-30T13:09:19Z" name="Shakedown for all clubs_2" started-at="2019-04-30T13:09:19Z" status="PASS"/>
+<test-method duration-ms="8825" finished-at="2019-04-30T13:09:19Z" name="Shakedown for all clubs_3" started-at="2019-04-30T13:09:19Z" status="PASS"/>
+<test-method duration-ms="8480" finished-at="2019-04-30T13:09:19Z" name="Shakedown for all clubs_4" started-at="2019-04-30T13:09:19Z" status="PASS"/>
 </class>
 <class name="TexasRegression">
-<test-method duration-ms="13160" finished-at="2019-04-29T11:33:22Z" name="Regression for Texas" started-at="2019-04-29T11:33:22Z" status="PASS"/>
+<test-method duration-ms="8267" finished-at="2019-04-30T13:09:19Z" name="Regression for Texas" started-at="2019-04-30T13:09:19Z" status="PASS"/>
 </class>
 </test>
 </suite>

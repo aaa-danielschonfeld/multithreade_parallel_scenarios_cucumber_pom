@@ -1,5 +1,6 @@
 pageObjects/LandingPage.class
 steps/ResultsPageSteps.class
+utils/ExtentManager.class
 steps/World.class
 steps/BaseSteps.class
 runner/SingleRunnerForAllFeatures.class

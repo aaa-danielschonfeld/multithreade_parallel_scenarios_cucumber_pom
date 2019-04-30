@@ -1,5 +1,6 @@
 /Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/runner/SingleRunnerForAllFeatures.java
 /Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/steps/ResultsPageSteps.java
+/Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/utils/ExtentManager.java
 /Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/pageObjects/ResultsPage.java
 /Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/steps/BaseSteps.java
 /Users/daneilschonfeld/Desktop/java_cucumber_parallel_scenarios-page_object_implementation/src/test/java/steps/LandingPageSteps.java
